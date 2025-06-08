@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/portfolio/product/sample1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/api-docs/overview/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/api-docs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/my-whack-thoughts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/my-whack-thoughts/thought1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/api/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cv/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/portfolio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/product/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech-writing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/api-docs/the-user-object/</loc>
+  </url>
+</urlset>
