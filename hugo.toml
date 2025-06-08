@@ -1,0 +1,67 @@
+baseURL = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "Altus Booysen"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  showHomeContent = true
+  paginate = 0
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.goldmark.parser]
+    autoHeadingID = true
+    attribute = true
+  [markup.goldmark.extensions]
+    emoji = true
+
+
+#[params.assets]
+#  customCSS = ["css/custom.css"]
+
+# Uncomment below to enable profileMode on homepage
+# [params.profileMode]
+#   enabled = true
+#   title = "Altus Booysen"
+#   subtitle = "Technical Writer | API Docs | UX Writing"
+#   imageUrl = "images/avatar.jpg"
+#   imageTitle = "Altus Booysen"
+#   buttons = [
+#     { name = "View CV", url = "/cv/" },
+#     { name = "Portfolio", url = "/portfolio/" }
+#   ]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 2
+
+[[menu.main]]
+  name = "Portfolio"
+  url = "/portfolio/"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 4
+# Sidebar only (do NOT include these under "main")
+  [[menu.samples]]
+  identifier = "sample-a"
+  name = "Project A"
+  url = "/samples/project-a/"
+  weight = 1
+
+  [[menu.samples]]
+  identifier = "sample-b"
+  name = "Project B"
+  url = "/samples/project-b/"
+  weight = 2

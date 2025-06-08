@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div style="display: flex;">
+  <!-- Sidebar -->
+  <aside style="width: 250px; margin-right: 2rem;">
+    <nav>
+      <ul>
+        {{ range .Sections }}
+          <li>
+            <strong>{{ .Title }}</strong>
+            <ul>
+              {{ range .Pages }}
+                <li>
+                  <a href="{{ .RelPermalink }}"
+                     {{ if eq .RelPermalink $.RelPermalink }}style="font-weight: bold; color: #0056b3;"{{ end }}>
+                    {{ .Title }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </li>
+        {{ end }}
+
+        {{ range .Pages }}
+          {{ if not .Sections }}
+            <li>
+              <a href="{{ .RelPermalink }}"
+                 {{ if eq .RelPermalink $.RelPermalink }}style="font-weight: bold; color: #0056b3;"{{ end }}>
+                {{ .Title }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main style="flex: 1;">
+    {{ .Content }}
+  </main>
+</div>
+{{ end }}

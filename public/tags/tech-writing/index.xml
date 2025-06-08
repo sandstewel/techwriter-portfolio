@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech Writing on Altus Booysen</title>
+    <link>http://localhost:1313/tags/tech-writing/</link>
+    <description>Recent content in Tech Writing on Altus Booysen</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/tech-writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>👤 User Documentation</title>
+      <link>http://localhost:1313/portfolio/product/sample1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/product/sample1/</guid>
+      <description>An product documentation sample</description>
+    </item>
+    <item>
+      <title>User Overview</title>
+      <link>http://localhost:1313/portfolio/api-docs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/api-docs/overview/</guid>
+      <description>An test documentation sample</description>
+    </item>
+    <item>
+      <title>The User Object</title>
+      <link>http://localhost:1313/portfolio/api-docs/the-user-object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/api-docs/the-user-object/</guid>
+      <description>An test documentation sample</description>
+    </item>
+  </channel>
+</rss>
