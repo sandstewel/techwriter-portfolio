@@ -1,0 +1,6 @@
+<details>
+  <summary>{{ .Get "summary" | safeHTML }}</summary>
+  <div class="collapse-content">
+    {{ .Inner | markdownify }}
+  </div>
+</details>
