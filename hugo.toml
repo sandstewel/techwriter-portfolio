@@ -1,4 +1,4 @@
-baseURL = "https://yourdomain.com/"
+baseURL = "https://sandstewel.github.io/techwriter-portfolio/"
 languageCode = "en-us"
 title = "Altus Booysen"
 theme = "PaperMod"
@@ -7,6 +7,10 @@ theme = "PaperMod"
   defaultTheme = "auto"
   showHomeContent = true
   paginate = 0
+
+[params.assets]
+  disableFingerprinting = true   # or true to disable
+
 
 [markup]
   [markup.goldmark]
