@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Create a User | Altus Booysen</title>
 <meta name="keywords" content="API, Tech Writing">
 <meta name="description" content="🆕 Create a User
@@ -81,16 +81,16 @@ curl -X POST https://api.example.com/v1/users \
   }&#39;
 ">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/portfolio/api-docs/create-a-user/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/">
+<link crossorigin="anonymous" href="/techwriter-portfolio/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://sandstewel.github.io/techwriter-portfolio/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://sandstewel.github.io/techwriter-portfolio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://sandstewel.github.io/techwriter-portfolio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://sandstewel.github.io/techwriter-portfolio/apple-touch-icon.png">
+<link rel="mask-icon" href="https://sandstewel.github.io/techwriter-portfolio/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/portfolio/api-docs/create-a-user/">
+<link rel="alternate" hreflang="en" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/">
 <noscript>
     <style>
         #theme-toggle,
@@ -128,8 +128,151 @@ curl -X POST https://api.example.com/v1/users \
 
     </style>
 </noscript>
-<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css">
+<meta property="og:url" content="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/">
+  <meta property="og:site_name" content="Altus Booysen">
+  <meta property="og:title" content="Create a User">
+  <meta property="og:description" content="🆕 Create a User POST /v1/users
+Use this endpoint to create a new user in the system.
+🔸 Request Headers Header Value Required Description Authorization Bearer YOUR_API_TOKEN ✅ Your API access token Content-Type application/json ✅ Request body content type 📥 Request Body Parameters Send a JSON object with the following fields:
+Field Type Required Description name string ✅ Full name of the user email string ✅ Email address of the user password string ✅ Password for the new user ✅ Example cURL Request curl -X POST https://api.example.com/v1/users \ -H &#34;Authorization: Bearer YOUR_API_TOKEN&#34; \ -H &#34;Content-Type: application/json&#34; \ -d &#39;{ &#34;name&#34;: &#34;John Smith&#34;, &#34;email&#34;: &#34;john.smith@example.com&#34;, &#34;password&#34;: &#34;securePassword123&#34; }&#39; ">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="portfolio">
+    <meta property="article:tag" content="API">
+    <meta property="article:tag" content="Tech Writing">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Create a User">
+<meta name="twitter:description" content="🆕 Create a User
+POST /v1/users
+Use this endpoint to create a new user in the system.
 
+🔸 Request Headers
+
+  
+      
+          Header
+          Value
+          Required
+          Description
+      
+  
+  
+      
+          Authorization
+          Bearer YOUR_API_TOKEN
+          ✅
+          Your API access token
+      
+      
+          Content-Type
+          application/json
+          ✅
+          Request body content type
+      
+  
+
+
+📥 Request Body Parameters
+Send a JSON object with the following fields:
+
+  
+      
+          Field
+          Type
+          Required
+          Description
+      
+  
+  
+      
+          name
+          string
+          ✅
+          Full name of the user
+      
+      
+          email
+          string
+          ✅
+          Email address of the user
+      
+      
+          password
+          string
+          ✅
+          Password for the new user
+      
+  
+
+
+✅ Example cURL Request
+curl -X POST https://api.example.com/v1/users \
+  -H &#34;Authorization: Bearer YOUR_API_TOKEN&#34; \
+  -H &#34;Content-Type: application/json&#34; \
+  -d &#39;{
+    &#34;name&#34;: &#34;John Smith&#34;,
+    &#34;email&#34;: &#34;john.smith@example.com&#34;,
+    &#34;password&#34;: &#34;securePassword123&#34;
+  }&#39;
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Portfolio",
+      "item": "https://sandstewel.github.io/techwriter-portfolio/portfolio/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "💻 API Documentation",
+      "item": "https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Create a User",
+      "item": "https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Create a User",
+  "name": "Create a User",
+  "description": "🆕 Create a User POST /v1/users\nUse this endpoint to create a new user in the system.\n🔸 Request Headers Header Value Required Description Authorization Bearer YOUR_API_TOKEN ✅ Your API access token Content-Type application/json ✅ Request body content type 📥 Request Body Parameters Send a JSON object with the following fields:\nField Type Required Description name string ✅ Full name of the user email string ✅ Email address of the user password string ✅ Password for the new user ✅ Example cURL Request curl -X POST https://api.example.com/v1/users \\ -H \u0026#34;Authorization: Bearer YOUR_API_TOKEN\u0026#34; \\ -H \u0026#34;Content-Type: application/json\u0026#34; \\ -d \u0026#39;{ \u0026#34;name\u0026#34;: \u0026#34;John Smith\u0026#34;, \u0026#34;email\u0026#34;: \u0026#34;john.smith@example.com\u0026#34;, \u0026#34;password\u0026#34;: \u0026#34;securePassword123\u0026#34; }\u0026#39; ",
+  "keywords": [
+    "API", "Tech Writing"
+  ],
+  "articleBody": "🆕 Create a User POST /v1/users\nUse this endpoint to create a new user in the system.\n🔸 Request Headers Header Value Required Description Authorization Bearer YOUR_API_TOKEN ✅ Your API access token Content-Type application/json ✅ Request body content type 📥 Request Body Parameters Send a JSON object with the following fields:\nField Type Required Description name string ✅ Full name of the user email string ✅ Email address of the user password string ✅ Password for the new user ✅ Example cURL Request curl -X POST https://api.example.com/v1/users \\ -H \"Authorization: Bearer YOUR_API_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"name\": \"John Smith\", \"email\": \"john.smith@example.com\", \"password\": \"securePassword123\" }' ",
+  "wordCount" : "107",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Altus Booysen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sandstewel.github.io/techwriter-portfolio/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -147,7 +290,7 @@ curl -X POST https://api.example.com/v1/users \
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Altus Booysen (Alt + H)">Altus Booysen</a>
+            <a href="https://sandstewel.github.io/techwriter-portfolio/" accesskey="h" title="Altus Booysen (Alt + H)">Altus Booysen</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -173,22 +316,22 @@ curl -X POST https://api.example.com/v1/users \
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="Home">
+                <a href="https://sandstewel.github.io/techwriter-portfolio/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/cv/" title="CV">
+                <a href="https://sandstewel.github.io/techwriter-portfolio/cv/" title="CV">
                     <span>CV</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/portfolio/" title="Portfolio">
+                <a href="https://sandstewel.github.io/techwriter-portfolio/portfolio/" title="Portfolio">
                     <span>Portfolio</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/contact/" title="Contact">
+                <a href="https://sandstewel.github.io/techwriter-portfolio/contact/" title="Contact">
                     <span>Contact</span>
                 </a>
             </li>
@@ -287,15 +430,15 @@ curl -X POST https://api.example.com/v1/users \
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/api/">API</a></li>
-      <li><a href="http://localhost:1313/tags/tech-writing/">Tech Writing</a></li>
+      <li><a href="https://sandstewel.github.io/techwriter-portfolio/tags/api/">API</a></li>
+      <li><a href="https://sandstewel.github.io/techwriter-portfolio/tags/tech-writing/">Tech Writing</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Altus Booysen</a></span> · 
+        <span>&copy; 2025 <a href="https://sandstewel.github.io/techwriter-portfolio/">Altus Booysen</a></span> · 
 
 
 </footer>
