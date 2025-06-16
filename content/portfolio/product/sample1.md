@@ -1,6 +1,6 @@
 ---
-title: "Duplicate a Creator Campaig"
-description: "An product documentation sample"
+title: "Duplicate a Creator Campaign"
+description: "A product documentation sample"
 tags: ["product", "Tech Writing"]
 categories: ["Portfolio"]
 weight: 1
