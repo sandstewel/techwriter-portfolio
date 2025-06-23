@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech Writing on Altus Booysen</title>
-    <link>https://sandstewel.github.io/techwriter-portfolio/tags/tech-writing/</link>
+    <link>http://localhost:1313/techwriter-portfolio/tags/tech-writing/</link>
     <description>Recent content in Tech Writing on Altus Booysen</description>
     <generator>Hugo -- 0.147.5</generator>
     <language>en-us</language>
-    <atom:link href="https://sandstewel.github.io/techwriter-portfolio/tags/tech-writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/techwriter-portfolio/tags/tech-writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Duplicate a Creator Campaig</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample1/</link>
+      <title>Duplicate a Creator Campaign</title>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample1/</guid>
-      <description>An product documentation sample</description>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample1/</guid>
+      <description>A product documentation sample</description>
     </item>
     <item>
       <title>EmotiCalc™</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample2/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample2/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample2/</guid>
       <description>&lt;h2 id=&#34;how-to-use-emoticalc-without-getting-into-an-argument&#34;&gt;How to Use EmotiCalc™ Without Getting into an Argument&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
@@ -126,16 +126,16 @@
     </item>
     <item>
       <title>User Overview</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/overview/</guid>
       <description>An test documentation sample</description>
     </item>
     <item>
       <title>The User Object</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/the-user-object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/the-user-object/</guid>
       <description>&lt;h2 id=&#34;the-user-object&#34;&gt;The User object&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -198,9 +198,9 @@
     </item>
     <item>
       <title>Create a User</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/create-a-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/create-a-user/</guid>
       <description>&lt;h2 id=&#34;-create-a-user&#34;&gt;🆕 Create a User&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;POST&lt;/strong&gt; &lt;code&gt;/v1/users&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Use this endpoint to create a new user in the system.&lt;/p&gt;

@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/product/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample1/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/product/sample1/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample2/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/product/sample2/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/overview/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/the-user-object/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/my-whack-thoughts/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/my-whack-thoughts/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/create-a-user/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/tags/api/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/tags/api/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/categories/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/categories/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/contact/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/contact/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/cv/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/cv/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/categories/portfolio/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/categories/portfolio/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/portfolio/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/tags/product/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/tags/product/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/tags/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/tags/</loc>
   </url><url>
-    <loc>https://sandstewel.github.io/techwriter-portfolio/tags/tech-writing/</loc>
+    <loc>http://localhost:1313/techwriter-portfolio/tags/tech-writing/</loc>
   </url>
 </urlset>
