@@ -57,7 +57,7 @@
 
     </style>
 </noscript>
-<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1750792396">
+<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1750878517">
 
 <link rel="icon" type="image/x-icon" href="/techwriter-portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/techwriter-portfolio/favicon-32x32.png">
@@ -156,10 +156,63 @@
   </header>
   <div class="entry-content">
     <p>Duplicate a Creator Campaign You can duplicate any existing campaign with all its existing details. When you copy a campaign, it is saved as Copy of {Campaign name} and dates are copied, so if the dates are in the past you will need to edit them in the duplicated campaign.
-From the left navigation bar, select Campaign Manager → Creator. Hover over the campaign you want to duplicate and select Manage Campaign. In the upper-right corner, select ellipsis-h-solid__1_.svg [More] → Duplicate. Edit the sections you want to update. Refer to Create a Creator Campaign for more information on each section. Select Publish Campaign or Save as draft if you want to publish it later. </p>
+From the left navigation bar, select Campaign Manager → Creator. Hover over the campaign you want to duplicate and select Manage Campaign. In the upper-right corner, select dots-horizontal [More] → Duplicate. Edit the sections you want to update. Refer to Create a Creator Campaign for more information on each section. Select Publish Campaign or Save as draft if you want to publish it later. </p>
   </div>
   <footer class="entry-footer"></footer>
   <a class="entry-link" aria-label="post link to Duplicate a Creator Campaign" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample1/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">User Overview
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>User API Documentation Sample The User endpoint allows you to retrieve existing user information or create a new user in the system.
+Method Endpoint Description Example GET /v1/users/{id} Get user info by ID /v1/users/12345 POST /v1/users Create a new user /v1/users </p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to User Overview" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mobile App Reports Overview
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>You can view your available balance, what you’ve earned today, and any pending amounts payable to your account, as well as a quick snapshot of your key performance metrics.
+From the navigation bar at the bottom of your screen, select chart-pie-outline [Reports]. View your current balance and current and pending earnings. Earnings and balance referenceField Description Available Balance This field gives you a live representation of funds available for withdrawal. The progress bar below the Available Balance shows how much you must still earn before an auto-withdrawal will take place. Today’s Earnings This field displays the amount of commission you’ve earned today. Pending Amount The total value of all funds still due to you and the amount payable to you on the next payment date. The value shown is not finalized until the action locking period passes. View a snapshot of your key performance metrics. This section is a graphical representation of your key performance metrics. Use the chevron-down [Drop-down menu] to select a timeframe and select 1 of the options provided to view the data for that metric. Earnings and balance referenceMetric Description Clicks The total number of times users followed your ad links to brand landing pages. Sale Amount The total value of revenue you generated for all brands within the selected timeframe. Actions The total number of conversions you drove, excluding any reversed by brands. Action Earnings The total number of individual payments you earned for driving conversions. CR The conversion rate is calculated as the number of Actions divided by the number of Clicks, and it represents the percentage of clicks that result in conversions. EPC The average amount of commission earned per click driven. </p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Mobile App Reports Overview" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample4/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The User Object
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The User object Field Type Required Description id string Yes Unique identifier for the user. name string Yes Full name of the user. email string Yes Email address of the user. created_at string No Timestamp when the user was created (ISO 8601). updated_at string No Timestamp when the user was last updated. status string No User status (e.g., active, inactive). Example {&#34;id&#34;: &#34;12345&#34;,&#34;name&#34;: &#34;Jane Doe&#34;,&#34;email&#34;: &#34;jane.doe@example.com&#34;,&#34;created_at&#34;: &#34;2025-06-01T12:00:00Z&#34;,&#34;updated_at&#34;: &#34;2025-06-07T08:30:00Z&#34;,&#34;status&#34;: &#34;active&#34;} </p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to The User Object" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Create a User
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>🆕 Create a User POST /v1/users
+Use this endpoint to create a new user in the system.
+🔸 Request Headers Header Value Required Description Authorization Bearer YOUR_API_TOKEN ✅ Your API access token Content-Type application/json ✅ Request body content type 📥 Request Body Parameters Send a JSON object with the following fields:
+Field Type Required Description name string ✅ Full name of the user email string ✅ Email address of the user password string ✅ Password for the new user ✅ Example cURL Request curl -X POST https://api.example.com/v1/users \ -H &#34;Authorization: Bearer YOUR_API_TOKEN&#34; \ -H &#34;Content-Type: application/json&#34; \ -d &#39;{ &#34;name&#34;: &#34;John Smith&#34;, &#34;email&#34;: &#34;john.smith@example.com&#34;, &#34;password&#34;: &#34;securePassword123&#34; }&#39; </p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Create a User" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -179,31 +232,6 @@ System Requirements Windows 95 or newer (EmotiCalc™ prefers older systems beca
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">User Overview
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>User API Documentation Sample The User endpoint allows you to retrieve existing user information or create a new user in the system.
-Method Endpoint Description Example GET /v1/users/{id} Get user info by ID /v1/users/12345 POST /v1/users Create a new user /v1/users </p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to User Overview" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The User Object
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The User object Field Type Required Description id string Yes Unique identifier for the user. name string Yes Full name of the user. email string Yes Email address of the user. created_at string No Timestamp when the user was created (ISO 8601). updated_at string No Timestamp when the user was last updated. status string No User status (e.g., active, inactive). Example {&#34;id&#34;: &#34;12345&#34;,&#34;name&#34;: &#34;Jane Doe&#34;,&#34;email&#34;: &#34;jane.doe@example.com&#34;,&#34;created_at&#34;: &#34;2025-06-01T12:00:00Z&#34;,&#34;updated_at&#34;: &#34;2025-06-07T08:30:00Z&#34;,&#34;status&#34;: &#34;active&#34;} </p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to The User Object" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">A diagram of the documentation lifecycle
     </h2>
   </header>
@@ -213,21 +241,6 @@ graph TDA[&#34;Start: First Draft&#34;] --&gt; B[&#34;Review by Technical Write
   </div>
   <footer class="entry-footer"></footer>
   <a class="entry-link" aria-label="post link to A diagram of the documentation lifecycle" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample3/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Create a User
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>🆕 Create a User POST /v1/users
-Use this endpoint to create a new user in the system.
-🔸 Request Headers Header Value Required Description Authorization Bearer YOUR_API_TOKEN ✅ Your API access token Content-Type application/json ✅ Request body content type 📥 Request Body Parameters Send a JSON object with the following fields:
-Field Type Required Description name string ✅ Full name of the user email string ✅ Email address of the user password string ✅ Password for the new user ✅ Example cURL Request curl -X POST https://api.example.com/v1/users \ -H &#34;Authorization: Bearer YOUR_API_TOKEN&#34; \ -H &#34;Content-Type: application/json&#34; \ -d &#39;{ &#34;name&#34;: &#34;John Smith&#34;, &#34;email&#34;: &#34;john.smith@example.com&#34;, &#34;password&#34;: &#34;securePassword123&#34; }&#39; </p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Create a User" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/"></a>
 </article>
     </main>
     

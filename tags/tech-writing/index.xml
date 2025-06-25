@@ -15,6 +15,243 @@
       <description>A product documentation sample</description>
     </item>
     <item>
+      <title>User Overview</title>
+      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/</guid>
+      <description>An test documentation sample</description>
+    </item>
+    <item>
+      <title>Mobile App Reports Overview</title>
+      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample4/</guid>
+      <description>&lt;p&gt;You can view your available balance, what you&amp;rsquo;ve earned today, and any pending amounts payable to your account, as well as a quick snapshot of your key performance metrics.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the navigation bar at the bottom of your screen, select &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;30px&#34; style=&#34;vertical-align: middle;&#34;&gt;&lt;title&gt;chart-pie-outline&lt;/title&gt;&lt;path d=&#34;M13 11H19.95Q19.58 8.25 17.66 6.34 15.75 4.43 13 4.05M11 19.95V4.05Q8 4.43 6 6.69 4 8.95 4 12T6 17.31Q8 19.58 11 19.95M13 19.95Q15.75 19.6 17.68 17.68 19.6 15.75 19.95 13H13M12 12M12 22Q9.93 22 8.1 21.21 6.28 20.43 4.93 19.08 3.58 17.73 2.79 15.9 2 14.08 2 12T2.79 8.1Q3.58 6.28 4.93 4.93 6.28 3.58 8.1 2.79 9.93 2 12 2T15.89 2.79Q17.7 3.58 19.06 4.94 20.43 6.3 21.21 8.11 22 9.93 22 12 22 14.05 21.21 15.88 20.43 17.7 19.08 19.06 17.73 20.43 15.9 21.21 14.08 22 12 22Z&#34; /&gt;&lt;/svg&gt; &lt;strong&gt;[Reports]&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;View your current balance and current and pending earnings.
+&lt;details&gt;
+  &lt;summary&gt;Earnings and balance reference&lt;/summary&gt;
+  &lt;div class=&#34;collapse-content&#34;&gt;
+    &lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Field&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Available Balance&lt;/td&gt;
+          &lt;td&gt;This field gives you a live representation of funds available for withdrawal. The progress bar below the Available Balance shows how much you must still earn before an auto-withdrawal will take place.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Today&amp;rsquo;s Earnings&lt;/td&gt;
+          &lt;td&gt;This field displays the amount of commission you&amp;rsquo;ve earned today.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Pending Amount&lt;/td&gt;
+          &lt;td&gt;The total value of all funds still due to you and the amount payable to you on the next payment date. The value shown is not finalized until the action locking period passes.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;View a snapshot of your key performance metrics.
+&lt;ul&gt;
+&lt;li&gt;This section is a graphical representation of your key performance metrics. Use the &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;30px&#34; style=&#34;vertical-align: middle;&#34;&gt;&lt;title&gt;chevron-down&lt;/title&gt;&lt;path d=&#34;M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z&#34; /&gt;&lt;/svg&gt; &lt;strong&gt;[Drop-down menu]&lt;/strong&gt; to select a timeframe and select 1 of the options provided to view the data for that metric.
+&lt;details&gt;
+  &lt;summary&gt;Earnings and balance reference&lt;/summary&gt;
+  &lt;div class=&#34;collapse-content&#34;&gt;
+    &lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Metric&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Clicks&lt;/td&gt;
+          &lt;td&gt;The total number of times users followed your ad links to brand landing pages.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sale Amount&lt;/td&gt;
+          &lt;td&gt;The total value of revenue you generated for all brands within the selected timeframe.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Actions&lt;/td&gt;
+          &lt;td&gt;The total number of conversions you drove, excluding any reversed by brands.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Action Earnings&lt;/td&gt;
+          &lt;td&gt;The total number of individual payments you earned for driving conversions.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;CR&lt;/td&gt;
+          &lt;td&gt;The conversion rate is calculated as the number of &lt;em&gt;Actions&lt;/em&gt; divided by the number of &lt;em&gt;Clicks&lt;/em&gt;, and it represents the percentage of clicks that result in conversions.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;EPC&lt;/td&gt;
+          &lt;td&gt;The average amount of commission earned per click driven.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>The User Object</title>
+      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/</guid>
+      <description>&lt;h2 id=&#34;the-user-object&#34;&gt;The User object&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Field&lt;/th&gt;
+          &lt;th&gt;Type&lt;/th&gt;
+          &lt;th&gt;Required&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;id&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Unique identifier for the user.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;name&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Full name of the user.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;email&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Email address of the user.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;created_at&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Timestamp when the user was created (ISO 8601).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;updated_at&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Timestamp when the user was last updated.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;status&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;User status (e.g., &lt;code&gt;active&lt;/code&gt;, &lt;code&gt;inactive&lt;/code&gt;).&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{
+  &amp;#34;id&amp;#34;: &amp;#34;12345&amp;#34;,
+  &amp;#34;name&amp;#34;: &amp;#34;Jane Doe&amp;#34;,
+  &amp;#34;email&amp;#34;: &amp;#34;jane.doe@example.com&amp;#34;,
+  &amp;#34;created_at&amp;#34;: &amp;#34;2025-06-01T12:00:00Z&amp;#34;,
+  &amp;#34;updated_at&amp;#34;: &amp;#34;2025-06-07T08:30:00Z&amp;#34;,
+  &amp;#34;status&amp;#34;: &amp;#34;active&amp;#34;
+}
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Create a User</title>
+      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/</guid>
+      <description>&lt;h2 id=&#34;-create-a-user&#34;&gt;🆕 Create a User&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;POST&lt;/strong&gt; &lt;code&gt;/v1/users&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Use this endpoint to create a new user in the system.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-request-headers&#34;&gt;🔸 Request Headers&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Header&lt;/th&gt;
+          &lt;th&gt;Value&lt;/th&gt;
+          &lt;th&gt;Required&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;Authorization&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Bearer YOUR_API_TOKEN&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;Your API access token&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;Content-Type&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;application/json&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;Request body content type&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-request-body-parameters&#34;&gt;📥 Request Body Parameters&lt;/h3&gt;
+&lt;p&gt;Send a JSON object with the following fields:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Field&lt;/th&gt;
+          &lt;th&gt;Type&lt;/th&gt;
+          &lt;th&gt;Required&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;name&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;Full name of the user&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;email&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;Email address of the user&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;password&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;string&lt;/td&gt;
+          &lt;td&gt;✅&lt;/td&gt;
+          &lt;td&gt;Password for the new user&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-example-curl-request&#34;&gt;✅ Example cURL Request&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -X POST https://api.example.com/v1/users &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -H &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Authorization: Bearer YOUR_API_TOKEN&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -H &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Content-Type: application/json&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -d &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;name&amp;#34;: &amp;#34;John Smith&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;email&amp;#34;: &amp;#34;john.smith@example.com&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;password&amp;#34;: &amp;#34;securePassword123&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;  }&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
       <title>EmotiCalc™</title>
       <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -125,78 +362,6 @@
 &lt;p&gt;Do &lt;strong&gt;not&lt;/strong&gt; under any circumstances:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>User Overview</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/</guid>
-      <description>An test documentation sample</description>
-    </item>
-    <item>
-      <title>The User Object</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/</guid>
-      <description>&lt;h2 id=&#34;the-user-object&#34;&gt;The User object&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Field&lt;/th&gt;
-          &lt;th&gt;Type&lt;/th&gt;
-          &lt;th&gt;Required&lt;/th&gt;
-          &lt;th&gt;Description&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;id&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;Yes&lt;/td&gt;
-          &lt;td&gt;Unique identifier for the user.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;name&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;Yes&lt;/td&gt;
-          &lt;td&gt;Full name of the user.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;email&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;Yes&lt;/td&gt;
-          &lt;td&gt;Email address of the user.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;created_at&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;No&lt;/td&gt;
-          &lt;td&gt;Timestamp when the user was created (ISO 8601).&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;updated_at&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;No&lt;/td&gt;
-          &lt;td&gt;Timestamp when the user was last updated.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;status&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;No&lt;/td&gt;
-          &lt;td&gt;User status (e.g., &lt;code&gt;active&lt;/code&gt;, &lt;code&gt;inactive&lt;/code&gt;).&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{
-  &amp;#34;id&amp;#34;: &amp;#34;12345&amp;#34;,
-  &amp;#34;name&amp;#34;: &amp;#34;Jane Doe&amp;#34;,
-  &amp;#34;email&amp;#34;: &amp;#34;jane.doe@example.com&amp;#34;,
-  &amp;#34;created_at&amp;#34;: &amp;#34;2025-06-01T12:00:00Z&amp;#34;,
-  &amp;#34;updated_at&amp;#34;: &amp;#34;2025-06-07T08:30:00Z&amp;#34;,
-  &amp;#34;status&amp;#34;: &amp;#34;active&amp;#34;
-}
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
       <title>A diagram of the documentation lifecycle</title>
       <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -217,85 +382,6 @@ graph TD
     J --&gt; K[&#34;Publish to Production Site&#34;]
     K --&gt; L[&#34;End: Live Documentation&#34;]
 &lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Create a User</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/</guid>
-      <description>&lt;h2 id=&#34;-create-a-user&#34;&gt;🆕 Create a User&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;POST&lt;/strong&gt; &lt;code&gt;/v1/users&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Use this endpoint to create a new user in the system.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-request-headers&#34;&gt;🔸 Request Headers&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Header&lt;/th&gt;
-          &lt;th&gt;Value&lt;/th&gt;
-          &lt;th&gt;Required&lt;/th&gt;
-          &lt;th&gt;Description&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;Authorization&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Bearer YOUR_API_TOKEN&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;✅&lt;/td&gt;
-          &lt;td&gt;Your API access token&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;Content-Type&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;application/json&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;✅&lt;/td&gt;
-          &lt;td&gt;Request body content type&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-request-body-parameters&#34;&gt;📥 Request Body Parameters&lt;/h3&gt;
-&lt;p&gt;Send a JSON object with the following fields:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Field&lt;/th&gt;
-          &lt;th&gt;Type&lt;/th&gt;
-          &lt;th&gt;Required&lt;/th&gt;
-          &lt;th&gt;Description&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;name&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;✅&lt;/td&gt;
-          &lt;td&gt;Full name of the user&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;email&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;✅&lt;/td&gt;
-          &lt;td&gt;Email address of the user&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;password&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;string&lt;/td&gt;
-          &lt;td&gt;✅&lt;/td&gt;
-          &lt;td&gt;Password for the new user&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-example-curl-request&#34;&gt;✅ Example cURL Request&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -X POST https://api.example.com/v1/users &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -H &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Authorization: Bearer YOUR_API_TOKEN&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -H &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Content-Type: application/json&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  -d &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;name&amp;#34;: &amp;#34;John Smith&amp;#34;,
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;email&amp;#34;: &amp;#34;john.smith@example.com&amp;#34;,
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;password&amp;#34;: &amp;#34;securePassword123&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;  }&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
