@@ -58,3 +58,19 @@ border-radius: 50px 50px;
 display: block;
 margin: 0 auto;
 }
+
+/* admonitions */
+.admonition {
+  border-left: 4px solid #005f3f;
+  padding: 1em;
+  margin: 1em 0;
+  background: #f0f8ff;
+  border-radius: 4px;
+  color: rgb(85, 81, 81);
+}
+.admonition.note { border-color: #4bc19a; background: #4bc19a; }
+.admonition.warning { border-color: orange; background: rgb(252, 198, 99); }
+.admonition-title {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}

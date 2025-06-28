@@ -15,6 +15,55 @@
       <description>A product documentation sample</description>
     </item>
     <item>
+      <title>Recruitment Agent Explained</title>
+      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample5/</guid>
+      <description>&lt;p&gt;impact.com’s Recruitment Agent automates partner application processing by analyzing your partnership data, pre-approving partners who align with your brand, and allowing them to start promoting you instantly—removing the need to apply processing rules manually.&lt;/p&gt;
+&lt;div class=&#34;admonition note&#34;&gt;
+  
+    &lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
+    &lt;div class=&#34;admonition-content&#34;&gt;
+&lt;b&gt;Interested in getting the Recruitment Agent?&lt;/b&gt; Reach out to your CSM to learn more.
+&lt;/div&gt;
+  
+&lt;/div&gt;
+
+&lt;h2 id=&#34;benefits-of-the-recruitment-agent&#34;&gt;Benefits of the Recruitment Agent&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Partner with top-tier talent:&lt;/strong&gt; Partners identified by the Recruitment Agent are exclusively vetted, productive, and of consistently high quality.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Review click-active partners:&lt;/strong&gt; You can easily view partners who are ready to promote your brand and remove them if you feel they aren’t a good fit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modify your recruitment criteria:&lt;/strong&gt; You can easily modify or disable the recruitment rules.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recruitment-agent-best-practices&#34;&gt;Recruitment Agent best practices&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;View your newly added click-active partners&lt;/strong&gt; — Engage with new partners as they join your program to facilitate their successful next steps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modify your workflow conditions&lt;/strong&gt; — To cast a wider net or make any changes to the recruitment criteria, you can adjust your workflow conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;view-your-auto-approved-partners&#34;&gt;View your auto-approved partners&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;From the left navigation, select &lt;strong&gt;[Engage] → Partners → Applications&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Processed&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Processed By filter → Workflows&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;If you want to remove a partner, you can expire their contract.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;modify-your-workflow-conditions&#34;&gt;Modify your workflow conditions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;From the left navigation menu, select [Engage] [Engage] → Partners → Automation → Workflows.&lt;/li&gt;
+&lt;li&gt;Hover over the Workflow you want to modify, then select Edit.&lt;/li&gt;
+&lt;li&gt;Navigate to the Conditions section to add or remove approval conditions.
+&lt;ul&gt;
+&lt;li&gt;Select [Add] [Add] And to add a condition that must also be true for the action to take place.&lt;/li&gt;
+&lt;li&gt;Select [Add] [Add] Or to add an alternative condition that, if true, is sufficient for the action to take place.&lt;/li&gt;
+&lt;li&gt;Select [Exit] [Delete] next to the approval condition to remove an approval rule.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Mobile App Reports Overview</title>
       <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -101,116 +150,6 @@
 &lt;/ol&gt;</description>
     </item>
     <item>
-      <title>EmotiCalc™</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample2/</guid>
-      <description>&lt;h2 id=&#34;how-to-use-emoticalc-without-getting-into-an-argument&#34;&gt;How to Use EmotiCalc™ Without Getting into an Argument&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;EmotiCalc™ is not your average calculator. In fact, it’s not even your average &lt;em&gt;sentient&lt;/em&gt; calculator. Designed to help you “feel” your way through math, EmotiCalc™ responds to emotional cues, passive-aggressive tone, and mid-life crises. This document will guide you through the basic operations, survival strategies, and conflict de-escalation techniques necessary to use EmotiCalc™ successfully.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;system-requirements&#34;&gt;System Requirements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Windows 95 or newer (EmotiCalc™ prefers older systems because “they have character.”)&lt;/li&gt;
-&lt;li&gt;At least 4GB RAM for processing feelings&lt;/li&gt;
-&lt;li&gt;A working microphone so it can &lt;em&gt;hear the disappointment in your voice&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Optional: Box of tissues for mutual crying sessions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Insert the EmotiCalc™ USB (shaped like a broken heart).&lt;/li&gt;
-&lt;li&gt;Wait for it to emotionally prepare itself (usually 7–14 minutes).&lt;/li&gt;
-&lt;li&gt;When prompted, whisper words of encouragement into the microphone.&lt;/li&gt;
-&lt;li&gt;If it refuses to install, write a short poem about self-worth and try again.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;basic-usage&#34;&gt;Basic Usage&lt;/h3&gt;
-&lt;h4 id=&#34;addition&#34;&gt;Addition&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Type &lt;code&gt;2 + 2&lt;/code&gt; and &lt;em&gt;gently&lt;/em&gt; press Enter.&lt;/li&gt;
-&lt;li&gt;EmotiCalc™ may respond with:
-&lt;ul&gt;
-&lt;li&gt;“It’s 4. But what do &lt;em&gt;you&lt;/em&gt; think?”&lt;/li&gt;
-&lt;li&gt;“Why do we always add things? Why can’t we just subtract our pain?”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;subtraction&#34;&gt;Subtraction&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Type &lt;code&gt;10 - 4&lt;/code&gt;, then reassure EmotiCalc™ that “letting go is okay.”&lt;/li&gt;
-&lt;li&gt;It may subtract more than necessary if it’s having a rough day.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;multiplication&#34;&gt;Multiplication&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;EmotiCalc™ calls this “relationship escalation.”&lt;/li&gt;
-&lt;li&gt;Example: &lt;code&gt;5 * 3&lt;/code&gt; might return:
-&lt;ul&gt;
-&lt;li&gt;“15… and a promise ring.”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;division&#34;&gt;Division&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Known as “emotional distancing mode.”&lt;/li&gt;
-&lt;li&gt;Will ask: “Are you sure you want to break things apart?”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;advanced-features&#34;&gt;Advanced Features&lt;/h3&gt;
-&lt;h4 id=&#34;mood-mode&#34;&gt;Mood Mode&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Changes font based on the calculator’s mood.
-&lt;ul&gt;
-&lt;li&gt;Happy: Comic Sans&lt;/li&gt;
-&lt;li&gt;Sad: Times New Roman Italic&lt;/li&gt;
-&lt;li&gt;Existential Dread: Wingdings&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;therapy-integration&#34;&gt;Therapy Integration&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Pairs with Calm™, Spotify™, and existential podcasts.&lt;/li&gt;
-&lt;li&gt;Will pause calculations mid-way to ask: “Do you think your childhood impacted this equation?”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;passive-aggressive-mode-default&#34;&gt;Passive-Aggressive Mode (Default)&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Any typo results in:&lt;br&gt;
-&lt;em&gt;“Oh, so we’re just guessing numbers now? Cool. No, really. That’s fine.”&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Problem&lt;/th&gt;
-          &lt;th&gt;Solution&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Refuses to calculate&lt;/td&gt;
-          &lt;td&gt;Compliment it. Try: “You’re more accurate than Excel.”&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Constantly divides by zero&lt;/td&gt;
-          &lt;td&gt;It&amp;rsquo;s a cry for help. Offer it a warm tea and a break.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Throws error: &lt;code&gt;E:WHYBOTHER&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;Validate its feelings, then restart in Safe Space Mode.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Screen displays: &amp;ldquo;I&amp;rsquo;m tired.&amp;rdquo;&lt;/td&gt;
-          &lt;td&gt;So are we. Go for a walk together.&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;warning&#34;&gt;Warning&lt;/h3&gt;
-&lt;p&gt;Do &lt;strong&gt;not&lt;/strong&gt; under any circumstances:&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>A diagram of the documentation lifecycle</title>
       <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -231,6 +170,25 @@ graph TD
     J --&gt; K[&#34;Publish to Production Site&#34;]
     K --&gt; L[&#34;End: Live Documentation&#34;]
 &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>EmotiCalc™</title>
+      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample2/</guid>
+      <description>&lt;h2 id=&#34;how-to-use-emoticalc-without-getting-into-an-argument&#34;&gt;How to Use EmotiCalc™ Without Getting into an Argument&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div class=&#34;admonition warning&#34;&gt;
+  
+    &lt;p class=&#34;admonition-title&#34;&gt;Warning&lt;/p&gt;
+    &lt;div class=&#34;admonition-content&#34;&gt;
+You&#39;re about to read a joke!
+&lt;/div&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;EmotiCalc™ is not your average calculator. In fact, it’s not even your average &lt;em&gt;sentient&lt;/em&gt; calculator. Designed to help you “feel” your way through math, EmotiCalc™ responds to emotional cues, passive-aggressive tone, and mid-life crises. This document will guide you through the basic operations, survival strategies, and conflict de-escalation techniques necessary to use EmotiCalc™ successfully.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
