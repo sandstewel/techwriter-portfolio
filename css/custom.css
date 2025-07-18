@@ -292,3 +292,6 @@ body #servers:focus {
   box-shadow: 0 0 5px rgba(31, 111, 235, 0.8);
 }
 
+#swagger-ui section .float-right {
+  display: none;
+}
