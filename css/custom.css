@@ -293,5 +293,5 @@ body #servers:focus {
 }
 
 #swagger-ui section .float-right {
-  display: none;
+  display: none !important;
 }
