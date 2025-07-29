@@ -31,6 +31,7 @@ I'm an experienced technical writer specializing in software documentation, API 
 - HTML, CSS, JavaScript
 - Google Analytics
 - Postman
+- Swagger OpenAPI specification
 
 {{< /collapse >}}
 
