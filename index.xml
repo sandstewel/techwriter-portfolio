@@ -469,5 +469,45 @@ graph TD
     K --&gt; L[&#34;End: Live Documentation&#34;]
 &lt;/div&gt;</description>
     </item>
+    <item>
+      <title>3D Model Test</title>
+      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/structural-design/structural-model-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/structural-design/structural-model-test/</guid>
+      <description>&lt;h2 id=&#34;model-viewer-demo&#34;&gt;Model Viewer Demo&lt;/h2&gt;
+&lt;p&gt;This sample shows how to interact with designs models.&lt;/p&gt;
+&lt;script type=&#34;module&#34; src=&#34;https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;model-viewer id=&#34;pickMaterial&#34;
+              src=&#34;https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Models@master/2.0/MetalRoughSpheresNoTextures/glTF-Binary/MetalRoughSpheresNoTextures.glb&#34;
+              alt=&#34;A Material Picking Example&#34;
+              shadow-intensity=&#34;1&#34;
+              camera-controls
+              touch-action=&#34;pan-y&#34;
+              disable-tap
+              ar
+              ar-modes=&#34;webxr&#34;
+              scale=&#34;100 100 100&#34;
+              style=&#34;width: 100%; height: 500px;&#34;&gt;
+&lt;/model-viewer&gt;
+
+&lt;script type=&#34;module&#34;&gt;
+  const modelViewer = document.querySelector(&#34;model-viewer#pickMaterial&#34;);
+
+  modelViewer.addEventListener(&#34;load&#34;, () =&gt; {
+    const changeColor = (event) =&gt; {
+      if (modelViewer.modelIsVisible) {
+        const material = modelViewer.materialFromPoint(event.clientX, event.clientY);
+        if (material != null) {
+          material.pbrMetallicRoughness.setBaseColorFactor([
+            Math.random(), Math.random(), Math.random(), 1
+          ]);
+        }
+      }
+    };
+    document.addEventListener(&#34;click&#34;, changeColor);
+  });
+&lt;/script&gt;</description>
+    </item>
   </channel>
 </rss>

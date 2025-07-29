@@ -5,11 +5,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>💡My Thoughts... | Altus Booysen</title>
-<meta name="keywords" content="product, Tech Writing">
-<meta name="description" content="I use this space to capture my rambling thoughts.">
+<title>Dimensions sample | Altus Booysen</title>
+<meta name="keywords" content="">
+<meta name="description" content="Dimensions test
+
+
+
+
+
+">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/techwriter-portfolio/portfolio/my-thoughts/">
+<link rel="canonical" href="http://localhost:1313/techwriter-portfolio/portfolio/structural-design/dimensions/">
 <link crossorigin="anonymous" href="/techwriter-portfolio/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/techwriter-portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/techwriter-portfolio/favicon-16x16.png">
@@ -18,8 +24,7 @@
 <link rel="mask-icon" href="http://localhost:1313/techwriter-portfolio/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/techwriter-portfolio/portfolio/my-thoughts/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/techwriter-portfolio/portfolio/my-thoughts/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/techwriter-portfolio/portfolio/structural-design/dimensions/">
 <noscript>
     <style>
         #theme-toggle,
@@ -57,21 +62,33 @@
 
     </style>
 </noscript>
-<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1750878449">
+<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1753002944">
 
 <link rel="icon" type="image/x-icon" href="/techwriter-portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/techwriter-portfolio/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/techwriter-portfolio/favicon-16x16.png">
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LPEF03NK5P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LPEF03NK5P');
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
   mermaid.initialize({ startOnLoad: true });
 </script>
 
 
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -134,16 +151,64 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    💡My Thoughts...
-  </h1>
-</header>
-<div class="post-content"><p>I use this space to capture my rambling thoughts.</p>
+<main class="main">
 
+
+<article class="post-single">
+  <header class="post-header">
+
+
+    <h1 class="post-title entry-hint-parent">
+      Dimensions sample
+    </h1>
+    <div class="post-meta">
 
 </div>
+  </header> 
+  
+  <div class="post-content"><h2 id="dimensions-test">Dimensions test<a hidden class="anchor" aria-hidden="true" href="#dimensions-test">#</a></h2>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<model-viewer id="pickMaterial"
+              src="/models/shishkebab.glb"
+              alt="Dimensions Model"
+              shadow-intensity="1"
+              camera-controls
+              touch-action="pan-y"
+              disable-tap
+              ar
+              ar-modes="webxr"
+              scale="100 100 100"
+              style="width: 100%; height: 500px;">
+</model-viewer>
+
+<script type="module">
+  const modelViewer = document.querySelector("model-viewer#pickMaterial");
+
+  modelViewer.addEventListener("load", () => {
+    const changeColor = (event) => {
+      if (modelViewer.modelIsVisible) {
+        const material = modelViewer.materialFromPoint(event.clientX, event.clientY);
+        if (material != null) {
+          material.pbrMetallicRoughness.setBaseColorFactor([
+            Math.random(), Math.random(), Math.random(), 1
+          ]);
+        }
+      }
+    };
+    document.addEventListener("click", changeColor);
+  });
+</script>
+
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">

@@ -57,7 +57,7 @@
 
     </style>
 </noscript>
-<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1752834668">
+<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1753807765">
 
 <link rel="icon" type="image/x-icon" href="/techwriter-portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/techwriter-portfolio/favicon-32x32.png">
@@ -75,8 +75,8 @@
 
 
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
   mermaid.initialize({ startOnLoad: true });
 </script>
 
@@ -156,6 +156,36 @@
 </header>
 <main class="main"> 
 <header class="page-header">
+ 
+
+
+
+
+<style>
+.back-button {
+  margin: 1rem 0;
+}
+
+.back-button-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: var(--color-link, #007acc);
+  background-color: var(--color-background-secondary, #f4f4f4);
+  border: 1px solid var(--color-border, #ddd);
+}
+
+.back-button-link:hover {
+  background-color: var(--color-background-hover, #e2e2e2);
+  color: var(--color-link-hover, #005a9e);
+}
+</style>
+
+
+
   <h1>
     Tech Writing
   </h1>
