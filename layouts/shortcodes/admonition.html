@@ -1,0 +1,9 @@
+<div class="admonition {{ .Get 0 }}">
+  {{ if .IsNamedParams }}
+    {{ if .Get "title" }}<p class="admonition-title">{{ .Get "title" }}</p>{{ end }}
+    <div class="admonition-content">{{ .Inner }}</div>
+  {{ else }}
+    <p class="admonition-title">{{ .Get 0 | title }}</p>
+    <div class="admonition-content">{{ .Inner }}</div>
+  {{ end }}
+</div>

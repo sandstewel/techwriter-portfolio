@@ -1,5 +1,7 @@
 ---
 title: "Curriculum Vitae"
+layout: "list"
+showBackButton: true
 ---
 
 ## Summary
@@ -8,26 +10,27 @@ I'm an experienced technical writer specializing in software documentation, API 
 
 ## Education
 
-- B.Ed Intermediate and Senior phase – Potchefstroom University (2012-2015)
-    - Afrikaans, English, Arts and Culture  
+- **B.Ed Intermediate and Senior Phase** – Potchefstroom University (2012–2015)  
+  *Subjects:* Afrikaans, English, Arts and Culture
 
-- BAHons (Afrikaans and Dutch) - Stellenbosch University (2018)
-    - Prose,  Literary  theory  and  Afrikaans  Literature, Language planning, Drama and Film, Poetry, Text analysis  
+- **BA Honours in Afrikaans and Dutch** – Stellenbosch University (2018)  
+  *Subjects:* Prose, Literary Theory, Afrikaans Literature, Language Planning, Drama and Film, Poetry, Text Analysis
 
-- Master’s thesis (Afrikaans and Dutch) - Stellenbosch University (2020-2021)
-
+- **Master’s Degree in Afrikaans and Dutch** – Stellenbosch University (2020–2021)  
+  *Thesis:* ’n Multimodale ondersoek na nostalgiese en patriargale Afrikanersimbole in populêre Afrikaanse musiekvideo’s
 
 ## Skills
 
 {{< collapse summary="Click to expand this section" >}}
 
-- Technical Documentation
-- API Reference Writing
 - Markdown, AsciiDoc, XML (DocBook)
-- Git, Hugo, Paligo
+- Git, Git Pages, Hugo, Paligo
 - Docs-as-code workflows
-- Jira
+- Jira, Confluence
+- FreshDesk CMS
 - HTML, CSS, JavaScript
+- Google Analytics
+- Postman
 
 {{< /collapse >}}
 
@@ -35,19 +38,19 @@ I'm an experienced technical writer specializing in software documentation, API 
 
 {{< collapse summary="Click to expand this section" >}}
 
-**Technical Writer – impact.com**  
+**Technical Writer II – impact.com**  
 *2022–Present*  
-- Authored and maintained product documentation for cloud platforms.
-- Collaborated with engineers, SMEs, and designers.
+- Author and maintain product and developer documentation for a marketing automation software company.
+- Collaborates with engineers, SMEs, and designers to ensure content accuracy.
 
 **Technical Writer – Microforest**  
 *2020-2022*  
-- Created and maintained technical documentation as a solo writer. 
+- Created and maintained product documentation as a solo writer. 
 - Led product communications.
 
 **Technical Writer – LessonDesk**  
 *2020*  
-- Led documentation for open-source developer tools.
+- Developed scripts for e-learning videos and wrote assembly guides for hardware products.
 
 **Language  practitioner, translator, content writer - LekkeSlaap**  
 *2018-2020*  
@@ -55,5 +58,3 @@ I'm an experienced technical writer specializing in software documentation, API 
 - Wrote travel content.
 
 {{< /collapse >}}
-
-

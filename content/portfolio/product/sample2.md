@@ -3,12 +3,18 @@ title: "EmotiCalc™"
 # description: "An product documentation sample"
 tags: ["product", "Tech Writing"]
 categories: ["Portfolio"]
-weight: 1
+weight: 10
+draft: "true"
+showBackButton: true
 ---
 
 ## How to Use EmotiCalc™ Without Getting into an Argument
 
 ---
+
+{{< admonition warning >}}
+You're about to read a joke!
+{{< /admonition >}}
 
 ### Overview
 

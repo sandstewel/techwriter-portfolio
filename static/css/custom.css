@@ -51,10 +51,273 @@ aside nav a.active {
   color: #0056b3;
 }
 
-img {
+p img {
 width: 250px;
 padding: 15px;
 border-radius: 50px 50px;
-align-items: center;
-margin-left: 200px;
+display: block;
+margin: 0 auto;
+}
+
+/* breadcrumbs */
+.breadcrumbs ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+.breadcrumbs li::after {
+  content: "/";
+  padding: 0 0.5em;
+}
+.breadcrumbs li:last-child::after {
+  content: "";
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+.breadcrumbs li[aria-current="page"] {
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+
+/* admonitions */
+.admonition {
+  border-left: 4px solid #005f3f;
+  padding: 1em;
+  margin: 1em 0;
+  background: #f0f8ff;
+  border-radius: 4px;
+  color: rgb(85, 81, 81);
+}
+.admonition.note { border-color: #4bc19a; background: #4bc19a; }
+.admonition.warning { border-color: orange; background: rgb(252, 198, 99); }
+.admonition-title {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Container reset and layout */
+.swagger-container {
+  max-width: 100%;
+  width: 100%;
+  /* padding: 2rem; */
+  box-sizing: border-box;
+}
+
+#swagger-ui {
+  width: 100%;
+  max-width: none !important;
+  overflow-x: auto;
+}
+
+/* Remove Swagger UI header bar and SVG sprite */
+.swagger-ui .topbar,
+.swagger-ui .svg-assets,
+.swagger-ui .link {
+  display: none !important;
+}
+
+/* Base font and background from PaperMod variables */
+.swagger-ui {
+  font-family: var(--font-family-base) !important;
+  color: var(--text-color) !important;
+  background-color: var(--background-color) !important;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.swagger-ui .main {
+  min-height: 0;
+}
+
+/* Operation blocks */
+.swagger-ui .opblock {
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: var(--surface-color, #f9fafb); /* fallback light background */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Headers in opblock-summary with flex for horizontal layout */
+.swagger-ui .opblock-summary {
+  background-color: var(--primary-color, #4f46e5); /* fallback purple */
+  color: var(--on-primary-color, #fff);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Descriptions and opblock body padding */
+.swagger-ui .opblock-description-wrapper,
+.swagger-ui .opblock-body {
+  padding: 0.5rem 1rem;
+}
+
+/* Parameter container spacing */
+.swagger-ui .parameters-container {
+  margin-bottom: 1.5rem;
+}
+
+/* Response wrapper spacing */
+.swagger-ui .responses-wrapper {
+  margin-top: 1.5rem;
+}
+
+/* Input fields styling */
+.swagger-ui input,
+.swagger-ui select,
+.swagger-ui textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 100%;
+  background-color: var(--input-bg, #e5e7eb); /* fallback light gray */
+  border: 1px solid var(--input-border, #d1d5db);
+  color: var(--text-color);
+  font-family: var(--font-family-mono, monospace);
+}
+
+/* Code blocks styling */
+.swagger-ui pre,
+.swagger-ui .highlight-code {
+  width: 100% !important;
+  overflow-x: auto;
+  padding: 1rem;
+  background-color: var(--code-bg-light, #f5f7fa);
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace, monospace;
+  color: var(--code-color-light, #1f2937);
+  white-space: pre;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  line-height: 1.4;
+}
+
+.post-content pre code {
+  display: block;
+}
+
+/* Expand request/response code panel */
+.swagger-ui .opblock-body pre,
+.swagger-ui .responses-table .response-col_description pre {
+  max-width: 100%;
+}
+
+/* Response tables full width */
+.swagger-ui table.responses-table {
+  width: 100% !important;
+  table-layout: auto;
+}
+
+.swagger-ui .response-col_description {
+  width: 100%;
+}
+
+/* Remove max-width limits from wrapper */
+.swagger-ui .wrapper {
+  max-width: none;
+}
+
+/* Subtle border between opblock tag sections */
+.swagger-ui .opblock-tag-section {
+  border-top: 1px solid var(--border-color, #e5e7eb);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+}
+
+/* --- Dark mode overrides --- */
+@media (prefers-color-scheme: dark) {
+  .swagger-ui {
+    background-color: var(--background-color-dark, #121212);
+    color: var(--text-color-dark, #e0e0e0);
+  }
+  .swagger-ui .opblock {
+    background-color: var(--surface-color-dark, #1e1e1e);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+  }
+  .swagger-ui .opblock-summary {
+    background-color: var(--primary-color-dark, #7c3aed);
+    color: var(--on-primary-color-dark, #fff);
+  }
+  .swagger-ui input,
+  .swagger-ui select,
+  .swagger-ui textarea {
+    background-color: var(--input-bg-dark, #2c2c2c);
+    border: 1px solid var(--input-border-dark, #444);
+    color: var(--text-color-dark);
+  }
+  .swagger-ui pre,
+  .swagger-ui .highlight-code {
+    background-color: var(--code-bg-dark, #111827);
+    color: var(--code-color-dark, #d1d5db);
+  }
+  .swagger-ui .opblock-tag-section {
+    border-top-color: var(--border-color-dark, #333);
+  }
+}
+
+/* Base button style */
+.btn {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Light theme */
+body:not(.dark) .try-out__btn,
+body:not(.dark) .execute {
+  background-color: #007acc;
+  color: white;
+}
+
+body:not(.dark) .try-out__btn:hover,
+body:not(.dark) .execute:hover {
+  background-color: #005fa3;
+}
+
+/* Dark theme */
+body.dark .try-out__btn,
+body.dark .execute {
+  background-color: #1f6feb;
+  color: #fff;
+}
+
+body .try-out__btn:hover,
+body .execute:hover {
+  background-color: #1158c7;
+}
+
+body #servers {
+  background-color: #222;
+  color: #eee;
+  border-color: #444;
+}
+
+body #servers:focus {
+  border-color: #1f6feb;
+  box-shadow: 0 0 5px rgba(31, 111, 235, 0.8);
+}
+
+#swagger-ui section .float-right {
+  display: none !important;
 }

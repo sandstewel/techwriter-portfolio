@@ -51,10 +51,10 @@ aside nav a.active {
   color: #0056b3;
 }
 
-img {
+p img {
 width: 250px;
 padding: 15px;
 border-radius: 50px 50px;
-align-items: center;
-margin-left: 200px;
+display: block;
+margin: 0 auto;
 }

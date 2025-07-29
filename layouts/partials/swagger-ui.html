@@ -1,0 +1,17 @@
+<div id="swagger-ui" style="margin-top: 1.5rem;"></div>
+
+<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
+<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
+<script>
+  window.onload = () => {
+    SwaggerUIBundle({
+      url: '{{ "openapi.yaml" | relURL }}',
+      dom_id: '#swagger-ui',
+      presets: [
+        SwaggerUIBundle.presets.apis,
+        SwaggerUIStandalonePreset
+      ],
+      layout: 'BaseLayout',
+    });
+  };
+</script>

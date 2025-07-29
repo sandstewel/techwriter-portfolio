@@ -1,0 +1,11 @@
+<nav aria-label="Breadcrumb">
+  <ul class="breadcrumbs">
+    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+    {{ $sections := .Sections }}
+    {{ range $index, $section := $sections }}
+      {{ $url := printf "/%s/" (delimit (slice (index $sections 0 | urlize) (slice 0 (add $index 1))) "/") }}
+      <li><a href="{{ $url | relURL }}">{{ humanize $section }}</a></li>
+    {{ end }}
+    <li>{{ .Title }}</li>
+  </ul>
+</nav>

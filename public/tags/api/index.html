@@ -57,7 +57,29 @@
 
     </style>
 </noscript>
-<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css">
+<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1753807765">
+
+<link rel="icon" type="image/x-icon" href="/techwriter-portfolio/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/techwriter-portfolio/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/techwriter-portfolio/favicon-16x16.png">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LPEF03NK5P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LPEF03NK5P');
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
 <meta property="og:url" content="https://sandstewel.github.io/techwriter-portfolio/tags/api/">
   <meta property="og:site_name" content="Altus Booysen">
   <meta property="og:title" content="API">
@@ -134,6 +156,36 @@
 </header>
 <main class="main"> 
 <header class="page-header">
+ 
+
+
+
+
+<style>
+.back-button {
+  margin: 1rem 0;
+}
+
+.back-button-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: var(--color-link, #007acc);
+  background-color: var(--color-background-secondary, #f4f4f4);
+  border: 1px solid var(--color-border, #ddd);
+}
+
+.back-button-link:hover {
+  background-color: var(--color-background-hover, #e2e2e2);
+  color: var(--color-link-hover, #005a9e);
+}
+</style>
+
+
+
   <h1>
     API
   </h1>
@@ -149,7 +201,7 @@
 Method Endpoint Description Example GET /v1/users/{id} Get user info by ID /v1/users/12345 POST /v1/users Create a new user /v1/users </p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to User Overview" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/overview/"></a>
+  <a class="entry-link" aria-label="post link to User Overview" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/overview/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -161,7 +213,7 @@ Method Endpoint Description Example GET /v1/users/{id} Get user info by ID /v1/u
     <p>The User object Field Type Required Description id string Yes Unique identifier for the user. name string Yes Full name of the user. email string Yes Email address of the user. created_at string No Timestamp when the user was created (ISO 8601). updated_at string No Timestamp when the user was last updated. status string No User status (e.g., active, inactive). Example {&#34;id&#34;: &#34;12345&#34;,&#34;name&#34;: &#34;Jane Doe&#34;,&#34;email&#34;: &#34;jane.doe@example.com&#34;,&#34;created_at&#34;: &#34;2025-06-01T12:00:00Z&#34;,&#34;updated_at&#34;: &#34;2025-06-07T08:30:00Z&#34;,&#34;status&#34;: &#34;active&#34;} </p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to The User Object" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/the-user-object/"></a>
+  <a class="entry-link" aria-label="post link to The User Object" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/the-user-object/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -176,7 +228,46 @@ Use this endpoint to create a new user in the system.
 Field Type Required Description name string ✅ Full name of the user email string ✅ Email address of the user password string ✅ Password for the new user ✅ Example cURL Request curl -X POST https://api.example.com/v1/users \ -H &#34;Authorization: Bearer YOUR_API_TOKEN&#34; \ -H &#34;Content-Type: application/json&#34; \ -d &#39;{ &#34;name&#34;: &#34;John Smith&#34;, &#34;email&#34;: &#34;john.smith@example.com&#34;, &#34;password&#34;: &#34;securePassword123&#34; }&#39; </p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Create a User" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/create-a-user/"></a>
+  <a class="entry-link" aria-label="post link to Create a User" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/create-a-user/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Petstore
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A sample API demonstrating common operations for managing pets, including adding, updating, and retrieving pet information.
+</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Petstore" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">To Do List
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>An API for managing tasks and to-do items, allowing users to create, update, complete, and delete tasks.
+</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to To Do List" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">User
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>An API for user account management, including user registration, authentication, profile updates, and user data retrieval.
+</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to User" href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/"></a>
 </article>
     </main>
     
