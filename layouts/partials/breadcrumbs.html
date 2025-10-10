@@ -1,28 +1,31 @@
 {{ if and (not .IsHome) (or (.Params.ShowBreadCrumbs) (.Site.Params.ShowBreadCrumbs)) }}
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="{{ .Site.BaseURL }}">🏠 Home</a>
-
+<nav class="breadcrumbs" aria-label="Breadcrumb">
   {{/* Collect ancestors up the page tree */}}
   {{ $ancestors := slice }}
   {{ $parent := .Parent }}
 
-  {{ range seq 0 10 }} {{/* safely limit to 10 levels deep */}}
+  {{ range seq 0 10 }}
     {{ if $parent }}
-      {{ $ancestors = $ancestors | append $parent }}
+      {{ if ne $parent.RelPermalink $.Site.BaseURL }}
+        {{ $ancestors = $ancestors | append $parent }}
+      {{ end }}
       {{ $parent = $parent.Parent }}
     {{ end }}
   {{ end }}
 
-  {{/* Reverse the ancestor order (top-down) */}}
+  {{/* Reverse order so top-level section comes first */}}
   {{ $count := sub (len $ancestors) 1 }}
   {{ range seq 0 $count }}
     {{ $i := sub $count . }}
     {{ $ancestor := index $ancestors $i }}
-    {{ if ne $ancestor.Title $.Title }}
+    {{ if eq . 0 }}
+      <a href="{{ $ancestor.RelPermalink }}">{{ $ancestor.Title }}</a>
+    {{ else }}
       &nbsp;›&nbsp;<a href="{{ $ancestor.RelPermalink }}">{{ $ancestor.Title }}</a>
     {{ end }}
   {{ end }}
 
+  {{/* Current page at the end */}}
   &nbsp;›&nbsp;<span>{{ .Title }}</span>
 </nav>
 {{ end }}

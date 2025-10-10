@@ -1,4 +1,30 @@
 {{- define "main" }}
+<!-- {{ if or (.Params.ShowBreadCrumbs) (.Site.Params.ShowBreadCrumbs) }}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ .Site.BaseURL }}">🏠 Home</a>
+
+  {{/* Collect all parent sections */}}
+  {{ $sections := slice }}
+  {{ $parent := .Parent }}
+
+  {{ range seq 0 10 }} {{/* limit depth to 10 levels just to be safe */}}
+    {{ if $parent }}
+      {{ $sections = $sections | append $parent }}
+      {{ $parent = $parent.Parent }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Reverse the list so we go top-down */}}
+  {{ $count := sub (len $sections) 1 }}
+  {{ range seq 0 $count }}
+    {{ $i := sub $count . }}
+    {{ $s := index $sections $i }}
+    &nbsp;›&nbsp;<a href="{{ $s.RelPermalink }}">{{ $s.Title }}</a>
+  {{ end }}
+
+  &nbsp;›&nbsp;<span>{{ .Title }}</span>
+</nav>
+{{ end }} -->
 
 <article class="post-single">
   <header class="post-header">
