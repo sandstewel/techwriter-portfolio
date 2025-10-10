@@ -5,19 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>User | Altus Booysen</title>
-<meta name="keywords" content="API, Tech Writing">
-<meta name="description" content="An API for user account management, including user registration, authentication, profile updates, and user data retrieval.
-
-  
-
-
-
-
-
-">
+<title>A perspective from a tech writer | Altus Booysen</title>
+<meta name="keywords" content="">
+<meta name="description" content="For the past couple of months, I&rsquo;ve been thinking about the tech writer&rsquo;s role within an organization, whether in a massive corporate environment, a small startup, SaaS, industrial, agricultural, you name it. Do we serve a meaningful purpose in a company? And, why do they need us?
+I&rsquo;ve been working on a project with a team outside my time-zone. That means no meetings, no context, no quick Slack messages to ask a question. It also means countless hours reading through Jira tickets to figure out what the project is about. I have to work on documentation for a new feature, but through my Jira investigation, I can see the discussions, ideas, designs, user data, the whole lifecycle from brainstorming to end product. It gives me a good grasp of the problems we&rsquo;re trying to solve. And in the end? I make sure the customer gets a nicely packaged version of our &ldquo;vision&rdquo;.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/">
+<link rel="canonical" href="http://localhost:1313/techwriter-portfolio/portfolio/my-thoughts/nothin-to-see-here/">
 <link crossorigin="anonymous" href="/techwriter-portfolio/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/techwriter-portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/techwriter-portfolio/favicon-16x16.png">
@@ -26,7 +19,7 @@
 <link rel="mask-icon" href="http://localhost:1313/techwriter-portfolio/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/techwriter-portfolio/portfolio/my-thoughts/nothin-to-see-here/">
 <noscript>
     <style>
         #theme-toggle,
@@ -64,7 +57,7 @@
 
     </style>
 </noscript>
-<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1760081715">
+<link rel="stylesheet" href="/techwriter-portfolio/css/custom.css?v=1760083073">
 
 <link rel="icon" type="image/x-icon" href="/techwriter-portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/techwriter-portfolio/favicon-32x32.png">
@@ -155,71 +148,97 @@
 </header>
 <main class="main">
 
-
 <article class="post-single">
   <header class="post-header">
+     
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="http://localhost:1313/techwriter-portfolio/">🏠 Home</a>
+
+  
+  
+  
+
+   
+    
+      
+      
+    
+   
+    
+      
+      
+    
+   
+    
+      
+      
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+  
+
+  
+  
+  
+    
+    
+    
+      &nbsp;›&nbsp;<a href="/techwriter-portfolio/">Home</a>
+    
+  
+    
+    
+    
+      &nbsp;›&nbsp;<a href="/techwriter-portfolio/portfolio/">Portfolio</a>
+    
+  
+    
+    
+    
+      &nbsp;›&nbsp;<a href="/techwriter-portfolio/portfolio/my-thoughts/">💡My Thoughts...</a>
+    
+  
+
+  &nbsp;›&nbsp;<span>A perspective from a tech writer</span>
+</nav>
 
 
     <h1 class="post-title entry-hint-parent">
-      User
+      A perspective from a tech writer
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
     </h1>
     <div class="post-meta">
 
 </div>
   </header> 
   
-  <div class="post-content"><p>An API for user account management, including user registration, authentication, profile updates, and user data retrieval.</p>
-<div class="swagger-container">
-  <div id="swagger-ui"></div>
-</div>
-
-<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
-<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
-
-<script>
-window.onload = function() {
-  const specUrl = '\/techwriter-portfolio\/openapi-user.yaml';
-  const ui = SwaggerUIBundle({
-    url: specUrl,
-    dom_id: '#swagger-ui',
-    presets: [
-      SwaggerUIBundle.presets.apis,
-      SwaggerUIStandalonePreset
-    ],
-    layout: "StandaloneLayout",
-    docExpansion: "none"
-  });
-  window.ui = ui;
-
-  
-  setTimeout(() => {
-    document.querySelectorAll('.btn-clipboard').forEach(button => {
-      button.addEventListener('click', async () => {
-        const codeBlock = button.closest('.highlight') || button.closest('pre');
-        if (!codeBlock) return;
-        try {
-          const text = codeBlock.innerText || codeBlock.textContent;
-          await navigator.clipboard.writeText(text.trim());
-          button.innerText = 'Copied!';
-          setTimeout(() => (button.innerText = 'Copy'), 2000);
-        } catch (err) {
-          console.error('Copy failed:', err);
-          button.innerText = 'Failed';
-        }
-      });
-    });
-  }, 1000);
-};
-</script>
-
+  <div class="post-content"><p>For the past couple of months, I&rsquo;ve been thinking about the tech writer&rsquo;s role within an organization, whether in a massive corporate environment, a small startup, SaaS, industrial, agricultural, you name it. Do we serve a meaningful purpose in a company? And, why do they need us?</p>
+<p>I&rsquo;ve been working on a project with a team outside my time-zone. That means no meetings, no context, no quick Slack messages to ask a question. It also means countless hours reading through Jira tickets to figure out what the project is about. I have to work on documentation for a new feature, but through my Jira investigation, I can see the discussions, ideas, designs, user data, the whole lifecycle from brainstorming to end product. It gives me a good grasp of the problems we&rsquo;re trying to solve. And in the end? I make sure the customer gets a nicely packaged version of our &ldquo;vision&rdquo;.</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/techwriter-portfolio/tags/api/">API</a></li>
-      <li><a href="http://localhost:1313/techwriter-portfolio/tags/tech-writing/">Tech Writing</a></li>
     </ul>
   </footer>
 </article>

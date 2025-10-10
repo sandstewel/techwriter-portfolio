@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech Writing on Altus Booysen</title>
-    <link>https://sandstewel.github.io/techwriter-portfolio/tags/tech-writing/</link>
+    <link>http://localhost:1313/techwriter-portfolio/tags/tech-writing/</link>
     <description>Recent content in Tech Writing on Altus Booysen</description>
     <generator>Hugo -- 0.147.5</generator>
     <language>en-us</language>
-    <atom:link href="https://sandstewel.github.io/techwriter-portfolio/tags/tech-writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/techwriter-portfolio/tags/tech-writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Duplicate a Creator Campaign</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample1/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample1/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample1/</guid>
       <description>A product documentation sample</description>
     </item>
     <item>
       <title>User Overview</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/overview/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/overview/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/overview/</guid>
       <description>An test documentation sample</description>
     </item>
     <item>
       <title>The User Object</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/the-user-object/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/the-user-object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/the-user-object/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/the-user-object/</guid>
       <description>&lt;h2 id=&#34;the-user-object&#34;&gt;The User object&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -88,9 +88,9 @@
     </item>
     <item>
       <title>Create a User</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/create-a-user/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/create-a-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/create-a-user/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/create-a-user/</guid>
       <description>&lt;h2 id=&#34;-create-a-user&#34;&gt;🆕 Create a User&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;POST&lt;/strong&gt; &lt;code&gt;/v1/users&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Use this endpoint to create a new user in the system.&lt;/p&gt;
@@ -167,9 +167,9 @@
     </item>
     <item>
       <title>Petstore</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</guid>
       <description>&lt;p&gt;A sample API demonstrating common operations for managing pets, including adding, updating, and retrieving pet information.&lt;/p&gt;
 &lt;div class=&#34;swagger-container&#34;&gt;
   &lt;div id=&#34;swagger-ui&#34;&gt;&lt;/div&gt;
@@ -216,9 +216,9 @@ window.onload = function() {
     </item>
     <item>
       <title>To Do List</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</guid>
       <description>&lt;p&gt;An API for managing tasks and to-do items, allowing users to create, update, complete, and delete tasks.&lt;/p&gt;
 &lt;div class=&#34;swagger-container&#34;&gt;
   &lt;div id=&#34;swagger-ui&#34;&gt;&lt;/div&gt;
@@ -265,9 +265,9 @@ window.onload = function() {
     </item>
     <item>
       <title>User</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</guid>
       <description>&lt;p&gt;An API for user account management, including user registration, authentication, profile updates, and user data retrieval.&lt;/p&gt;
 &lt;div class=&#34;swagger-container&#34;&gt;
   &lt;div id=&#34;swagger-ui&#34;&gt;&lt;/div&gt;
@@ -314,9 +314,9 @@ window.onload = function() {
     </item>
     <item>
       <title>Recruitment Agent Explained</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample5/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample5/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample5/</guid>
       <description>&lt;p&gt;impact.com’s Recruitment Agent automates partner application processing by analyzing your partnership data, pre-approving partners who align with your brand, and allowing them to start promoting you instantly—removing the need to apply processing rules manually.&lt;/p&gt;
 &lt;div class=&#34;admonition note&#34;&gt;
   
@@ -363,9 +363,9 @@ window.onload = function() {
     </item>
     <item>
       <title>Mobile App Reports Overview</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample4/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample4/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample4/</guid>
       <description>&lt;p&gt;You can view your available balance, what you&amp;rsquo;ve earned today, and any pending amounts payable to your account, as well as a quick snapshot of your key performance metrics.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;From the navigation bar at the bottom of your screen, select &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;30px&#34; style=&#34;vertical-align: middle;&#34;&gt;&lt;title&gt;chart-pie-outline&lt;/title&gt;&lt;path d=&#34;M13 11H19.95Q19.58 8.25 17.66 6.34 15.75 4.43 13 4.05M11 19.95V4.05Q8 4.43 6 6.69 4 8.95 4 12T6 17.31Q8 19.58 11 19.95M13 19.95Q15.75 19.6 17.68 17.68 19.6 15.75 19.95 13H13M12 12M12 22Q9.93 22 8.1 21.21 6.28 20.43 4.93 19.08 3.58 17.73 2.79 15.9 2 14.08 2 12T2.79 8.1Q3.58 6.28 4.93 4.93 6.28 3.58 8.1 2.79 9.93 2 12 2T15.89 2.79Q17.7 3.58 19.06 4.94 20.43 6.3 21.21 8.11 22 9.93 22 12 22 14.05 21.21 15.88 20.43 17.7 19.08 19.06 17.73 20.43 15.9 21.21 14.08 22 12 22Z&#34; /&gt;&lt;/svg&gt; &lt;strong&gt;[Reports]&lt;/strong&gt;.&lt;/li&gt;
@@ -449,9 +449,9 @@ window.onload = function() {
     </item>
     <item>
       <title>A diagram of the documentation lifecycle</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample3/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/sample3/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample3/</guid>
       <description>&lt;p&gt;The diagram below illustrates the end-to-end documentation workflow, from drafting the initial content to publishing it live on your help center.&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34;&gt;
 graph TD
@@ -468,6 +468,25 @@ graph TD
     J --&gt; K[&#34;Publish to Production Site&#34;]
     K --&gt; L[&#34;End: Live Documentation&#34;]
 &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>EmotiCalc™</title>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample2/</guid>
+      <description>&lt;h2 id=&#34;how-to-use-emoticalc-without-getting-into-an-argument&#34;&gt;How to Use EmotiCalc™ Without Getting into an Argument&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div class=&#34;admonition warning&#34;&gt;
+  
+    &lt;p class=&#34;admonition-title&#34;&gt;Warning&lt;/p&gt;
+    &lt;div class=&#34;admonition-content&#34;&gt;
+You&#39;re about to read a joke!
+&lt;/div&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;EmotiCalc™ is not your average calculator. In fact, it’s not even your average &lt;em&gt;sentient&lt;/em&gt; calculator. Designed to help you “feel” your way through math, EmotiCalc™ responds to emotional cues, passive-aggressive tone, and mid-life crises. This document will guide you through the basic operations, survival strategies, and conflict de-escalation techniques necessary to use EmotiCalc™ successfully.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

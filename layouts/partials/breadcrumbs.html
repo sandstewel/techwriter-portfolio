@@ -1,11 +1,28 @@
-<nav aria-label="Breadcrumb">
-  <ul class="breadcrumbs">
-    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-    {{ $sections := .Sections }}
-    {{ range $index, $section := $sections }}
-      {{ $url := printf "/%s/" (delimit (slice (index $sections 0 | urlize) (slice 0 (add $index 1))) "/") }}
-      <li><a href="{{ $url | relURL }}">{{ humanize $section }}</a></li>
+{{ if and (not .IsHome) (or (.Params.ShowBreadCrumbs) (.Site.Params.ShowBreadCrumbs)) }}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ .Site.BaseURL }}">🏠 Home</a>
+
+  {{/* Collect ancestors up the page tree */}}
+  {{ $ancestors := slice }}
+  {{ $parent := .Parent }}
+
+  {{ range seq 0 10 }} {{/* safely limit to 10 levels deep */}}
+    {{ if $parent }}
+      {{ $ancestors = $ancestors | append $parent }}
+      {{ $parent = $parent.Parent }}
     {{ end }}
-    <li>{{ .Title }}</li>
-  </ul>
+  {{ end }}
+
+  {{/* Reverse the ancestor order (top-down) */}}
+  {{ $count := sub (len $ancestors) 1 }}
+  {{ range seq 0 $count }}
+    {{ $i := sub $count . }}
+    {{ $ancestor := index $ancestors $i }}
+    {{ if ne $ancestor.Title $.Title }}
+      &nbsp;›&nbsp;<a href="{{ $ancestor.RelPermalink }}">{{ $ancestor.Title }}</a>
+    {{ end }}
+  {{ end }}
+
+  &nbsp;›&nbsp;<span>{{ .Title }}</span>
 </nav>
+{{ end }}

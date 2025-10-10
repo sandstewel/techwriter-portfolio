@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🧩 Open API Specification on Altus Booysen</title>
-    <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/</link>
+    <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/</link>
     <description>Recent content in 🧩 Open API Specification on Altus Booysen</description>
     <generator>Hugo -- 0.147.5</generator>
     <language>en-us</language>
-    <atom:link href="https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Petstore</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</guid>
       <description>&lt;p&gt;A sample API demonstrating common operations for managing pets, including adding, updating, and retrieving pet information.&lt;/p&gt;
 &lt;div class=&#34;swagger-container&#34;&gt;
   &lt;div id=&#34;swagger-ui&#34;&gt;&lt;/div&gt;
@@ -58,9 +58,9 @@ window.onload = function() {
     </item>
     <item>
       <title>To Do List</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</guid>
       <description>&lt;p&gt;An API for managing tasks and to-do items, allowing users to create, update, complete, and delete tasks.&lt;/p&gt;
 &lt;div class=&#34;swagger-container&#34;&gt;
   &lt;div id=&#34;swagger-ui&#34;&gt;&lt;/div&gt;
@@ -107,9 +107,9 @@ window.onload = function() {
     </item>
     <item>
       <title>User</title>
-      <link>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</guid>
       <description>&lt;p&gt;An API for user account management, including user registration, authentication, profile updates, and user data retrieval.&lt;/p&gt;
 &lt;div class=&#34;swagger-container&#34;&gt;
   &lt;div id=&#34;swagger-ui&#34;&gt;&lt;/div&gt;

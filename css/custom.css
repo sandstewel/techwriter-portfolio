@@ -58,3 +58,29 @@ border-radius: 50px 50px;
 display: block;
 margin: 0 auto;
 }
+
+.breadcrumbs {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.breadcrumbs ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.breadcrumbs li {
+  margin-right: 0.5rem;
+}
+.breadcrumbs li::after {
+  content: "›";
+  margin-left: 0.5rem;
+  color: var(--secondary);
+}
+.breadcrumbs li:last-child::after {
+  content: "";
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--primary);
+}
