@@ -9,9 +9,9 @@
     <atom:link href="http://localhost:1313/techwriter-portfolio/tags/tech-writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Duplicate a Creator Campaign</title>
-      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample1/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/duplicate-creator-campaign/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample1/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/duplicate-creator-campaign/</guid>
       <description>A product documentation sample</description>
     </item>
     <item>
@@ -314,9 +314,9 @@ window.onload = function() {
     </item>
     <item>
       <title>Recruitment Agent Explained</title>
-      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample5/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/recruitment-agent-explained/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample5/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/recruitment-agent-explained/</guid>
       <description>&lt;p&gt;impact.com’s Recruitment Agent automates partner application processing by analyzing your partnership data, pre-approving partners who align with your brand, and allowing them to start promoting you instantly—removing the need to apply processing rules manually.&lt;/p&gt;
 &lt;div class=&#34;admonition note&#34;&gt;
   
@@ -328,17 +328,22 @@ window.onload = function() {
 &lt;/div&gt;
 
 &lt;h2 id=&#34;benefits-of-the-recruitment-agent&#34;&gt;Benefits of the Recruitment Agent&lt;/h2&gt;
+&lt;div class=&#34;transparent-block&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Partner with top-tier talent:&lt;/strong&gt; Partners identified by the Recruitment Agent are exclusively vetted, productive, and of consistently high quality.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Review click-active partners:&lt;/strong&gt; You can easily view partners who are ready to promote your brand and remove them if you feel they aren’t a good fit.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Modify your recruitment criteria:&lt;/strong&gt; You can easily modify or disable the recruitment rules.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;recruitment-agent-best-practices&#34;&gt;Recruitment Agent best practices&lt;/h2&gt;
+&lt;div class=&#34;transparent-block&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;View your newly added click-active partners&lt;/strong&gt; — Engage with new partners as they join your program to facilitate their successful next steps.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Modify your workflow conditions&lt;/strong&gt; — To cast a wider net or make any changes to the recruitment criteria, you can adjust your workflow conditions.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;view-your-auto-approved-partners&#34;&gt;View your auto-approved partners&lt;/h2&gt;
+&lt;div class=&#34;transparent-block&#34;&gt;
 &lt;ol&gt;
 &lt;li&gt;From the left navigation, select &lt;strong&gt;[Engage] → Partners → Applications&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Select the &lt;strong&gt;Processed&lt;/strong&gt; tab.&lt;/li&gt;
@@ -348,7 +353,9 @@ window.onload = function() {
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;modify-your-workflow-conditions&#34;&gt;Modify your workflow conditions&lt;/h2&gt;
+&lt;div class=&#34;transparent-block&#34;&gt;
 &lt;ol&gt;
 &lt;li&gt;From the left navigation menu, select &lt;strong&gt;[Engage] → Partners → Automation → Workflows&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Hover over the Workflow you want to modify, then select &lt;strong&gt;Edit&lt;/strong&gt;.&lt;/li&gt;
@@ -359,7 +366,8 @@ window.onload = function() {
 &lt;li&gt;Select &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;30px&#34; style=&#34;vertical-align: middle;&#34;&gt;&lt;title&gt;close&lt;/title&gt;&lt;path d=&#34;M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z&#34; /&gt;&lt;/svg&gt; &lt;strong&gt;[Delete]&lt;/strong&gt; next to the approval condition to remove an approval rule.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+&lt;/div&gt;</description>
     </item>
     <item>
       <title>Mobile App Reports Overview</title>
@@ -449,9 +457,9 @@ window.onload = function() {
     </item>
     <item>
       <title>A diagram of the documentation lifecycle</title>
-      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample3/</link>
+      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/tech-writer-diagram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample3/</guid>
+      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/tech-writer-diagram/</guid>
       <description>&lt;p&gt;The diagram below illustrates the end-to-end documentation workflow, from drafting the initial content to publishing it live on your help center.&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34;&gt;
 graph TD
@@ -468,25 +476,6 @@ graph TD
     J --&gt; K[&#34;Publish to Production Site&#34;]
     K --&gt; L[&#34;End: Live Documentation&#34;]
 &lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>EmotiCalc™</title>
-      <link>http://localhost:1313/techwriter-portfolio/portfolio/product/sample2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techwriter-portfolio/portfolio/product/sample2/</guid>
-      <description>&lt;h2 id=&#34;how-to-use-emoticalc-without-getting-into-an-argument&#34;&gt;How to Use EmotiCalc™ Without Getting into an Argument&lt;/h2&gt;
-&lt;hr&gt;
-&lt;div class=&#34;admonition warning&#34;&gt;
-  
-    &lt;p class=&#34;admonition-title&#34;&gt;Warning&lt;/p&gt;
-    &lt;div class=&#34;admonition-content&#34;&gt;
-You&#39;re about to read a joke!
-&lt;/div&gt;
-  
-&lt;/div&gt;
-
-&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;EmotiCalc™ is not your average calculator. In fact, it’s not even your average &lt;em&gt;sentient&lt;/em&gt; calculator. Designed to help you “feel” your way through math, EmotiCalc™ responds to emotional cues, passive-aggressive tone, and mid-life crises. This document will guide you through the basic operations, survival strategies, and conflict de-escalation techniques necessary to use EmotiCalc™ successfully.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -103,6 +103,27 @@ margin: 0 auto;
   margin-bottom: 0.5em;
 }
 
+.transparent-block {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  background-color: rgba(255, 255, 255, 0.1); /* light mode default */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Dark mode using a class on <html> or <body> */
+html.dark .transparent-block,
+body.dark .transparent-block {
+  background-color: rgba(0, 0, 0, 0.4);       /* dark background */
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1); /* light shadow for dark bg */
+}
+
+
+
+
+
+
 /* Container reset and layout */
 .swagger-container {
   max-width: 100%;

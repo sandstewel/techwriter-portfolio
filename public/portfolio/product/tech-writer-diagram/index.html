@@ -5,19 +5,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Petstore | Altus Booysen</title>
-<meta name="keywords" content="API, Tech Writing">
-<meta name="description" content="A sample API demonstrating common operations for managing pets, including adding, updating, and retrieving pet information.
+<title>A diagram of the documentation lifecycle | Altus Booysen</title>
+<meta name="keywords" content="product, Tech Writing">
+<meta name="description" content="The diagram below illustrates the end-to-end documentation workflow, from drafting the initial content to publishing it live on your help center.
 
-  
-
-
-
-
-
+graph TD
+    A[&#34;Start: First Draft&#34;] --&gt; B[&#34;Review by Technical Writer&#34;]
+    B --&gt; C[&#34;SME Review&#34;]
+    C --&gt; D[&#34;Revisions / Edits&#34;]
+    D --&gt; E{&#34;Approved?&#34;}
+    E -- &#34;Yes&#34; --&gt; F[&#34;Apply Style Guide&#34;]
+    E -- &#34;No&#34; --&gt; B
+    F --&gt; G[&#34;Final Review&#34;]
+    G --&gt; H{&#34;Ready to Publish?&#34;}
+    H -- &#34;Yes&#34; --&gt; I[&#34;Push to Version Control&#34;]
+    I --&gt; J[&#34;Static Site Generation with Hugo&#34;]
+    J --&gt; K[&#34;Publish to Production Site&#34;]
+    K --&gt; L[&#34;End: Live Documentation&#34;]
 ">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/">
+<link rel="canonical" href="http://localhost:1313/techwriter-portfolio/portfolio/product/tech-writer-diagram/">
 <link crossorigin="anonymous" href="/techwriter-portfolio/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/techwriter-portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/techwriter-portfolio/favicon-16x16.png">
@@ -26,7 +33,7 @@
 <link rel="mask-icon" href="http://localhost:1313/techwriter-portfolio/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/techwriter-portfolio/portfolio/product/tech-writer-diagram/">
 <noscript>
     <style>
         #theme-toggle,
@@ -187,11 +194,6 @@
     
   
     
-      
-        
-      
-      
-    
   
     
   
@@ -226,80 +228,46 @@
     
     
     
-      &nbsp;›&nbsp;<a href="/techwriter-portfolio/portfolio/api-docs/">💻 Developer Documentation</a>
-    
-  
-    
-    
-    
-      &nbsp;›&nbsp;<a href="/techwriter-portfolio/portfolio/api-docs/openapi-spec/">🧩 Open API Specification</a>
+      &nbsp;›&nbsp;<a href="/techwriter-portfolio/portfolio/product/">👤 Bespoke Biltong Product Manual</a>
     
   
 
   
-  &nbsp;›&nbsp;<span>Petstore</span>
+  &nbsp;›&nbsp;<span>A diagram of the documentation lifecycle</span>
 </nav>
 
 
     <h1 class="post-title entry-hint-parent">
-      Petstore
+      A diagram of the documentation lifecycle
     </h1>
     <div class="post-meta">
 
 </div>
   </header> 
   
-  <div class="post-content"><p>A sample API demonstrating common operations for managing pets, including adding, updating, and retrieving pet information.</p>
-<div class="swagger-container">
-  <div id="swagger-ui"></div>
+  <div class="post-content"><p>The diagram below illustrates the end-to-end documentation workflow, from drafting the initial content to publishing it live on your help center.</p>
+<div class="mermaid">
+graph TD
+    A["Start: First Draft"] --> B["Review by Technical Writer"]
+    B --> C["SME Review"]
+    C --> D["Revisions / Edits"]
+    D --> E{"Approved?"}
+    E -- "Yes" --> F["Apply Style Guide"]
+    E -- "No" --> B
+    F --> G["Final Review"]
+    G --> H{"Ready to Publish?"}
+    H -- "Yes" --> I["Push to Version Control"]
+    I --> J["Static Site Generation with Hugo"]
+    J --> K["Publish to Production Site"]
+    K --> L["End: Live Documentation"]
 </div>
-
-<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
-<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
-
-<script>
-window.onload = function() {
-  const specUrl = '\/techwriter-portfolio\/petstore.yaml';
-  const ui = SwaggerUIBundle({
-    url: specUrl,
-    dom_id: '#swagger-ui',
-    presets: [
-      SwaggerUIBundle.presets.apis,
-      SwaggerUIStandalonePreset
-    ],
-    layout: "StandaloneLayout",
-    docExpansion: "none"
-  });
-  window.ui = ui;
-
-  
-  setTimeout(() => {
-    document.querySelectorAll('.btn-clipboard').forEach(button => {
-      button.addEventListener('click', async () => {
-        const codeBlock = button.closest('.highlight') || button.closest('pre');
-        if (!codeBlock) return;
-        try {
-          const text = codeBlock.innerText || codeBlock.textContent;
-          await navigator.clipboard.writeText(text.trim());
-          button.innerText = 'Copied!';
-          setTimeout(() => (button.innerText = 'Copy'), 2000);
-        } catch (err) {
-          console.error('Copy failed:', err);
-          button.innerText = 'Failed';
-        }
-      });
-    });
-  }, 1000);
-};
-</script>
-
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/techwriter-portfolio/tags/api/">API</a></li>
+      <li><a href="http://localhost:1313/techwriter-portfolio/tags/product/">Product</a></li>
       <li><a href="http://localhost:1313/techwriter-portfolio/tags/tech-writing/">Tech Writing</a></li>
     </ul>
   </footer>

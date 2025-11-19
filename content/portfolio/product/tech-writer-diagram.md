@@ -4,6 +4,7 @@ title: "A diagram of the documentation lifecycle"
 tags: ["product", "Tech Writing"]
 categories: ["Portfolio"]
 weight: 7
+draft: true
 showBackButton: true
 ---
 

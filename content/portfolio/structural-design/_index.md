@@ -5,6 +5,7 @@ tags: ["product", "Tech Writing"]
 categories: ["Portfolio"]
 weight: 15
 showBackButton: true
+draft: true
 ---
 
 View exampless of structural designs.
