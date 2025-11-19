@@ -11,4 +11,4 @@ A mini-project I'm maintaining for a small start-up company specialising in besp
 
 The Bespoke Biltong product manual walks users through unboxing and operating the biltong dryer.
 
-[View the Bespoke Biltong Product Manual](https://sandstewel.github.io/bespoke-biltong/)
+<a href="https://sandstewel.github.io/bespoke-biltong/" target="_blank">View the Bespoke Biltong Product Manual</a>

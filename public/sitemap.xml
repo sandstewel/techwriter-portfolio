@@ -2,56 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/product/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/product/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/product/duplicate-creator-campaign/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/overview/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/overview/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/the-user-object/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/the-user-object/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/api-reference/create-a-user/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/api-reference/create-a-user/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/petstore/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/task/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/openapi-spec/user/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/structural-design/structural-model-test/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/product/recruitment-agent-explained/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/tags/api/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/product/sample4/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/product/tech-writer-diagram/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/api-docs/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/cv/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/structural-design/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/structural-design/structural-model-test/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/categories/portfolio/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/tags/api/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/portfolio/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/categories/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/tags/product/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/contact/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/cv/</loc>
-  </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/</loc>
-  </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/categories/portfolio/</loc>
-  </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/portfolio/</loc>
-  </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/tags/product/</loc>
-  </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/techwriter-portfolio/tags/tech-writing/</loc>
+    <loc>https://sandstewel.github.io/techwriter-portfolio/tags/tech-writing/</loc>
   </url>
 </urlset>
